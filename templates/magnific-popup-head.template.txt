@@ -9,4 +9,4 @@
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 # <!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="%%% setting behaviour_path %%%/magnific-popup/magnific-popup.css"> 
+<link rel="stylesheet" href="%%% setting behaviour_path %%%/magnific-popup/dist/magnific-popup.css"> 
