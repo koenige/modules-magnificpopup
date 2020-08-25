@@ -19,6 +19,11 @@
  * @return string $text
  */
 function page_magnificpopup(&$params, $page) {
+	if (!empty($page['media']['images'])) {
+		if (count($page['media']['images']) > 1) {
+			$page['extra']['magnific_popup'] = true;
+		}
+	}
 	if (empty($page['extra']['magnific_popup'])) return '';
 	if (empty($params)) return '';
 	$which = array_shift($params);
