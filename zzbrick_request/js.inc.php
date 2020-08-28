@@ -7,7 +7,7 @@
  * http://www.zugzwang.org/modules/magnificpopup
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
- * @copyright Copyright © 2017, 2020 Gustaf Mossakowski
+ * @copyright Copyright © 2015, 2020 Gustaf Mossakowski
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
 
