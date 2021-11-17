@@ -2,7 +2,7 @@
 # include JavaScript files
 #
 # Part of »Zugzwang Project«
-# http://www.zugzwang.org/modules/magnificpopup
+# https://www.zugzwang.org/modules/magnificpopup
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
 # @copyright Copyright © 2020 Gustaf Mossakowski

@@ -1,10 +1,11 @@
 <?php
 
 /**
- * Zugzwang Project
+ * magnificpopup module
  * JavaScript file for gallery
  *
- * http://www.zugzwang.org/modules/magnificpopup
+ * Part of »Zugzwang Project«
+ * https://www.zugzwang.org/modules/magnificpopup
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
  * @copyright Copyright © 2015, 2020 Gustaf Mossakowski
