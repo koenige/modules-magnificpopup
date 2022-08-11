@@ -8,7 +8,7 @@
  * https://www.zugzwang.org/modules/magnificpopup
  *
  * @author Gustaf Mossakowski <gustaf@koenige.org>
- * @copyright Copyright © 2017, 2020 Gustaf Mossakowski
+ * @copyright Copyright © 2017, 2020, 2022 Gustaf Mossakowski
  * @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
  */
 
@@ -25,7 +25,8 @@ function page_magnificpopup(&$params, $page) {
 			$page['extra']['magnific_popup'] = true;
 		}
 	}
-	if (empty($page['extra']['magnific_popup'])) return '';
+	if (empty($page['extra']['magnific_popup'])
+		AND !wrap_get_setting('magnificpopup_include')) return '';
 	if (empty($params)) return '';
 	$which = array_shift($params);
 	switch ($which) {
