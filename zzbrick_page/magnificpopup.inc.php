@@ -33,7 +33,7 @@ function page_magnificpopup(&$params, $page) {
 	case 'head':
 		return wrap_template('magnific-popup-head');
 	case 'foot':	
-		return wrap_template('magnific-popup');
+		return wrap_template('magnific-popup', $page['extra']);
 	}
 	return '';
 }

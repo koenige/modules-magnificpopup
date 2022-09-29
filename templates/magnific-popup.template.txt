@@ -13,3 +13,4 @@
 <script src="%%% setting behaviour_path %%%/magnificpopup/jquery-3.6.0.min.js"></script> 
 <script src="%%% setting behaviour_path %%%/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script src="%%% setting behaviour_path %%%/magnificpopup/gallery.js?lang=%%% setting lang %%%" type="text/javascript"></script>
+%%% item magnific_popup_foot %%%
