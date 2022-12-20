@@ -1,11 +1,11 @@
 # magnific popup module
-# Translations to German
+# Translations template
 #
 # Part of »Zugzwang Project«
 # https://www.zugzwang.org/modules/default
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2020 Gustaf Mossakowski
+# @copyright Copyright © 2020-2022 Gustaf Mossakowski
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 msgid ""
@@ -17,32 +17,30 @@ msgstr ""
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "PO-Revision-Date: \n"
 "X-Generator: Poedit 1.6.4\n"
-"Language: de\n"
 
 #: templates/magnific-popup.template.txt
 msgid "Previous (Left arrow key)"
-msgstr "Zurück (Pfeiltaste links)"
+msgstr ""
 
 #: templates/magnific-popup.template.txt
 msgid "Next (Right arrow key)"
-msgstr "Weiter (Pfeiltaste rechts)"
+msgstr ""
 
 #: templates/magnific-popup.template.txt
 msgid "of"
-msgstr "von"
+msgstr ""
 
 #: templates/magnific-popup.template.txt
 msgid "Close (Esc)"
-msgstr "Schließen (Esc)"
+msgstr ""
 
 #: templates/magnific-popup.template.txt
 msgid "Loading..."
-msgstr "Laden ..."
+msgstr ""
 
 #: templates/magnific-popup.template.txt
 msgid "<a href=\"%url%\">The image</a> could not be loaded."
-msgstr "<a href=\"%url%\">Das Bild</a> konnte nicht geladen werden."
+msgstr ""
