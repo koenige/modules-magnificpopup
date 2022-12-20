@@ -20,10 +20,14 @@
  * @return string $text
  */
 function page_magnificpopup(&$params, $page) {
-	if (!empty($page['media']['images'])) {
-		if (count($page['media']['images']) > 1) {
-			$page['extra']['magnific_popup'] = true;
-		}
+	$image_keys = ['images', 'images_detail', 'images_overview'];
+	$media = 0;
+	foreach ($image_keys as $image_key) {
+		if (empty($page['media'][$image_key])) continue;
+		$media += count($page['media'][$image_key]);
+		if ($media <= 1) continue;
+		$page['extra']['magnific_popup'] = true;
+		break;
 	}
 	if (empty($page['extra']['magnific_popup'])
 		AND !wrap_get_setting('magnificpopup_include')) return '';
