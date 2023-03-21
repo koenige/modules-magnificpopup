@@ -31,7 +31,7 @@ function page_magnificpopup(&$params, $page) {
 	}
 	if ($page['status'] !== 200) return '';
 	if (empty($page['extra']['magnific_popup'])
-		AND !wrap_get_setting('magnificpopup_include')) return '';
+		AND !wrap_setting('magnificpopup_include')) return '';
 	if (empty($params)) return '';
 	$which = array_shift($params);
 	switch ($which) {
