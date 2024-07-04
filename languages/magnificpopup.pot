@@ -5,7 +5,7 @@
 # https://www.zugzwang.org/modules/default
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2020-2022 Gustaf Mossakowski
+# @copyright Copyright © 2020-2022, 2024 Gustaf Mossakowski
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 msgid ""
@@ -19,7 +19,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "PO-Revision-Date: \n"
-"X-Generator: Poedit 1.6.4\n"
+
+#: configuration/settings.cfg
+msgid "include magnific popup on this page?"
+msgstr ""
+
+#: configuration/settings.cfg
+msgid "do not include jQuery library via magnific popup"
+msgstr ""
 
 #: templates/magnific-popup.template.txt
 msgid "Previous (Left arrow key)"
