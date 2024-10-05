@@ -9,10 +9,10 @@ Activating Magnific Popup JS by Dmitry Semenov in Zugzwang Project CMS
 ## How do I get set up? ###
 
 * Install as a Module in folder `_inc/modules`
-* add to page.template.txt in the HTML head:
-   %%% page magnificpopup head %%%
-* add to page.template.txt at the end:
-   %%% page magnificpopup foot %%%
+* add to page.template.txt in the HTML head:  
+    `%%% page magnificpopup head %%%`  
+* add to page.template.txt at the end:  
+    `%%% page magnificpopup foot %%%`  
 * Install JS library in `_behaviour` folder
   - `magnific_popup`
 
