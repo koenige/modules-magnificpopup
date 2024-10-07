@@ -5,7 +5,7 @@
 # https://www.zugzwang.org/modules/magnificpopup
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2015, 2017, 2020 Gustaf Mossakowski
+# @copyright Copyright © 2015, 2017, 2020, 2024 Gustaf Mossakowski
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 $('.js-gallery').each(function() { // the containers for all your galleries
@@ -18,7 +18,7 @@ $('.js-gallery').each(function() { // the containers for all your galleries
 		enabled: true,
 		tPrev: '%%% text Previous (Left arrow key) %%%', // title for left button
 		tNext: '%%% text Next (Right arrow key) %%%', // title for right button
-		tCounter: '<span class="mfp-counter">%curr% %%% text of %%% %total%</span>' // markup of counter
+		tCounter: '%curr% %%% text of %%% %total%' // markup of counter
 	  },
 	  image: {
 		titleSrc: 'data-title',
