@@ -5,14 +5,14 @@
 # https://www.zugzwang.org/modules/magnificpopup
 #
 # @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2020, 2022, 2024 Gustaf Mossakowski
+# @copyright Copyright © 2020, 2022, 2024-2025 Gustaf Mossakowski
 # @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
 #
 # <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
 # <!-- Magnific Popup core JS file -->
 %%% if setting magnificpopup_with_jquery %%%
-<script src="%%% setting behaviour_path %%%/magnificpopup/jquery-3.6.0.min.js"></script> 
+<script defer src="%%% setting behaviour_path %%%/magnificpopup/jquery-3.6.0.min.js"></script> 
 %%% endif %%%
-<script src="%%% setting behaviour_path %%%/magnific-popup/dist/jquery.magnific-popup.js"></script>
-<script src="%%% setting behaviour_path %%%/magnificpopup/gallery.js?lang=%%% setting lang %%%"></script>
+<script defer src="%%% setting behaviour_path %%%/magnific-popup/dist/jquery.magnific-popup.js"></script>
+<script defer src="%%% setting behaviour_path %%%/magnificpopup/gallery.js?lang=%%% setting lang %%%"></script>
 %%% item magnific_popup_foot %%%
