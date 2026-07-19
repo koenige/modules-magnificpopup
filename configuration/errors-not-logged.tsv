@@ -1,0 +1,17 @@
+# magnificpopup module
+# URLs or parts of URLs for which errors shall not be logged
+#
+# Part of »Zugzwang Project«
+# https://www.zugzwang.org/modules/magnificpopup
+#
+# @author Gustaf Mossakowski <gustaf@koenige.org>
+# @copyright Copyright © 2026 Gustaf Mossakowski
+# @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
+# 
+# begin = check if begin of string is identical; end = check end; all: check full
+#: errorcode	type	string
+#key 0 numeric
+
+# scripts or developer tools that try to include files referenced in .map files
+# that are not on production server
+404	end	/magnific-popup.css.map 
