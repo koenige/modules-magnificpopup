@@ -22,14 +22,6 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 3.6\n"
 
-#: configuration/settings.cfg
-msgid "include magnific popup on this page?"
-msgstr "bu sayfaya muhteşem açılır pencere ekleyelim mi?"
-
-#: configuration/settings.cfg
-msgid "do not include jQuery library via magnific popup"
-msgstr "magnific popup aracılığıyla jQuery kütüphanesini dahil etmeyin"
-
 #: templates/magnific-popup.template.txt
 msgid "Previous (Left arrow key)"
 msgstr "Önceki (Sol ok tuşu)"

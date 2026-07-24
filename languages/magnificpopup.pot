@@ -1,53 +1,41 @@
-# magnific popup module
-# Translations template
+# magnificpopup module
+# Translations
 #
 # Part of »Zugzwang Project«
-# https://www.zugzwang.org/modules/default
-#
-# @author Gustaf Mossakowski <gustaf@koenige.org>
-# @copyright Copyright © 2020-2022, 2024 Gustaf Mossakowski
-# @license http://opensource.org/licenses/lgpl-3.0.html LGPL-3.0
+# https://www.zugzwang.org/modules/magnificpopup
 #
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: Zugzwang Project -- magnific popup module\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Gustaf Mossakowski <gustaf@koenige.org>\n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Project-Id-Version: Zugzwang Project -- magnificpopup module\n"
+"POT-Creation-Date: 2026-07-24 15:51+0000\n"
 "PO-Revision-Date: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: configuration/settings.cfg
-msgid "include magnific popup on this page?"
-msgstr ""
-
-#: configuration/settings.cfg
-msgid "do not include jQuery library via magnific popup"
-msgstr ""
-
-#: templates/magnific-popup.template.txt
-msgid "Previous (Left arrow key)"
-msgstr ""
-
-#: templates/magnific-popup.template.txt
-msgid "Next (Right arrow key)"
-msgstr ""
-
-#: templates/magnific-popup.template.txt
-msgid "of"
-msgstr ""
-
-#: templates/magnific-popup.template.txt
+#: behaviour/gallery.js:15
 msgid "Close (Esc)"
 msgstr ""
 
-#: templates/magnific-popup.template.txt
+#: behaviour/gallery.js:16
 msgid "Loading..."
 msgstr ""
 
-#: templates/magnific-popup.template.txt
+#: behaviour/gallery.js:19
+msgid "Previous (Left arrow key)"
+msgstr ""
+
+#: behaviour/gallery.js:20
+msgid "Next (Right arrow key)"
+msgstr ""
+
+#: behaviour/gallery.js:21
+msgid "of"
+msgstr ""
+
+#: behaviour/gallery.js:25
 msgid "<a href=\"%url%\">The image</a> could not be loaded."
 msgstr ""
